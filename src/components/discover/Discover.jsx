@@ -364,7 +364,7 @@ const Discover = () => {
 
         {/* NO COURSE */}
         {filteredCourses.length === 0 && (
-          <div className="py-16 text-center">
+          <div className="py-15 text-center">
             <p className="text-gray-500">
               No courses available in this category.
             </p>
