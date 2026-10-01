@@ -15,6 +15,10 @@ const page = () => {
         <Hero></Hero>
       </section>
 
+      <section>
+        <Logo/>
+      </section>
+
       
       
     </div>
