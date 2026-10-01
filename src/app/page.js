@@ -15,33 +15,7 @@ const page = () => {
         <Hero></Hero>
       </section>
 
-      <section>
-        <Logo/>
-      </section>
-
-      <section>
-        <Discover/>
-      </section>
-
-      <section>
-        <Explore/>
-      </section>
-
-      <section>
-        <Professional/>
-      </section>
-
-      <section>
-        <Unlock/>
-      </section>
-
-      <section>
-        <Community/>
-      </section>
-
-      <section>
-        <FooterComponent/>
-      </section>
+      
       
     </div>
   );
