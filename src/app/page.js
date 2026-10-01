@@ -1,5 +1,12 @@
+import Discover from '@/components/discover/Discover';
+import Explore from '@/components/Explore/Explore';
 import Hero from '@/components/home/Hero';
+import Logo from '@/components/logoSection/logo';
+import Professional from '@/components/professional/Professional';
 import React from 'react';
+import Unlock from './Unlock';
+import Community from '@/components/community/Community';
+import FooterComponent from '@/components/footer/FooterComponent';
 
 const page = () => {
   return (
@@ -7,6 +14,35 @@ const page = () => {
       <section>
         <Hero></Hero>
       </section>
+
+      <section>
+        <Logo/>
+      </section>
+
+      <section>
+        <Discover/>
+      </section>
+
+      <section>
+        <Explore/>
+      </section>
+
+      <section>
+        <Professional/>
+      </section>
+
+      <section>
+        <Unlock/>
+      </section>
+
+      <section>
+        <Community/>
+      </section>
+
+      <section>
+        <FooterComponent/>
+      </section>
+      
     </div>
   );
 };
